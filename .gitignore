@@ -1,0 +1,7 @@
+# This repo holds only docs + the VS Code workspace. The sibling project
+# folders are their own repositories and are NOT part of this one.
+.vs/
+.idea/
+*.log
+.DS_Store
+Thumbs.db

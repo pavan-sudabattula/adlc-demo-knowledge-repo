@@ -1,0 +1,27 @@
+{
+  "folders": [
+    { "name": "📖 knowledge-repo (docs)", "path": "." },
+    { "name": "shared-contracts", "path": "../shared-contracts" },
+    { "name": "catalog-service", "path": "../catalog-service" },
+    { "name": "orders-service", "path": "../orders-service" },
+    { "name": "api-gateway", "path": "../api-gateway" },
+    { "name": "web-frontend", "path": "../web-frontend" }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/bin": true,
+      "**/obj": true,
+      "**/node_modules": true,
+      "**/dist": true
+    },
+    "dotnet.defaultSolution": "disable"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-dotnettools.csdevkit",
+      "ms-dotnettools.csharp",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}
