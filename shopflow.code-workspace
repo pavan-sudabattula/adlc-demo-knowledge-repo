@@ -1,11 +1,11 @@
 {
   "folders": [
     { "name": "📖 knowledge-repo (docs)", "path": "." },
-    { "name": "shared-contracts", "path": "../shared-contracts" },
-    { "name": "catalog-service", "path": "../catalog-service" },
-    { "name": "orders-service", "path": "../orders-service" },
-    { "name": "api-gateway", "path": "../api-gateway" },
-    { "name": "web-frontend", "path": "../web-frontend" }
+    { "name": "shared-contracts", "path": "shared-contracts" },
+    { "name": "catalog-service", "path": "catalog-service" },
+    { "name": "orders-service", "path": "orders-service" },
+    { "name": "api-gateway", "path": "api-gateway" },
+    { "name": "web-frontend", "path": "web-frontend" }
   ],
   "settings": {
     "files.exclude": {
