@@ -1,0 +1,372 @@
+{
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\adlc-demo-knowledge-repo\\clone-all.ps1": {
+    "mtime": 1781604231.1601443,
+    "ast_hash": "cef6a28fcd9590cdac3b66d7a6e8e6f8",
+    "semantic_hash": "cef6a28fcd9590cdac3b66d7a6e8e6f8"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\adlc-demo-knowledge-repo\\clone-all.sh": {
+    "mtime": 1781604231.1601443,
+    "ast_hash": "3168460f13fccf893cfe39df90a21142",
+    "semantic_hash": "3168460f13fccf893cfe39df90a21142"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\ApiGateway.csproj": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "353560b39ab18cb59fc64cfea2542a74",
+    "semantic_hash": "353560b39ab18cb59fc64cfea2542a74"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Clients\\CatalogClient.cs": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "edce10f97e226e6f82cf4fdb4fb0cb21",
+    "semantic_hash": "edce10f97e226e6f82cf4fdb4fb0cb21"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Clients\\ICatalogClient.cs": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "97d77ad313eadbf79ed493f0c7646b5e",
+    "semantic_hash": "97d77ad313eadbf79ed493f0c7646b5e"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Clients\\IOrdersClient.cs": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "6480528bac3bea336fc57c3af6e72b33",
+    "semantic_hash": "6480528bac3bea336fc57c3af6e72b33"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Clients\\OrdersClient.cs": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "051c671d2cc8c96cee352278d9e4a92a",
+    "semantic_hash": "051c671d2cc8c96cee352278d9e4a92a"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Controllers\\OrdersGatewayController.cs": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "c309c04876c517a040466727b141c69f",
+    "semantic_hash": "c309c04876c517a040466727b141c69f"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Controllers\\ProductsGatewayController.cs": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "c3e4884985754cd0d23011b718c8d23b",
+    "semantic_hash": "c3e4884985754cd0d23011b718c8d23b"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Program.cs": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "9e43666d6f91cb05f5c3383d5eb6c20b",
+    "semantic_hash": "9e43666d6f91cb05f5c3383d5eb6c20b"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\Properties\\launchSettings.json": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "bc1f91f38177e92dc20fa2a8ee4a6edc",
+    "semantic_hash": "bc1f91f38177e92dc20fa2a8ee4a6edc"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\appsettings.Development.json": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "f104226236564249b8a1dba3f7957190",
+    "semantic_hash": "f104226236564249b8a1dba3f7957190"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\appsettings.json": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "71ec8f5411664b785f118747bed67b0f",
+    "semantic_hash": "71ec8f5411664b785f118747bed67b0f"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\CatalogService.csproj": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "10288f1475be2b1cc5c082d5dbb49e84",
+    "semantic_hash": "10288f1475be2b1cc5c082d5dbb49e84"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Controllers\\ProductsController.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "2c9b77640fc5a27d9cc2507e6243160e",
+    "semantic_hash": "2c9b77640fc5a27d9cc2507e6243160e"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Data\\IProductStore.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "a65fde0d9ce7997fb57bd70db45aa59d",
+    "semantic_hash": "a65fde0d9ce7997fb57bd70db45aa59d"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Data\\ProductStore.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "86c96da2f2e341ef41bcc86ce08b97ca",
+    "semantic_hash": "86c96da2f2e341ef41bcc86ce08b97ca"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Program.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "421e1419772f316ef62f367d587ddf18",
+    "semantic_hash": "421e1419772f316ef62f367d587ddf18"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Properties\\launchSettings.json": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "50b4ba6154e77945073e039cc9abf3b5",
+    "semantic_hash": "50b4ba6154e77945073e039cc9abf3b5"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Services\\IProductService.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "03789e1e880f35b43441f1b0a272930b",
+    "semantic_hash": "03789e1e880f35b43441f1b0a272930b"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Services\\ProductService.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "724aa16e29a7e72c806ced9dc277b176",
+    "semantic_hash": "724aa16e29a7e72c806ced9dc277b176"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Tests\\CatalogService.Tests\\CatalogService.Tests.csproj": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "b9eecb70feb3df10027eb918612f64dd",
+    "semantic_hash": "b9eecb70feb3df10027eb918612f64dd"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Tests\\CatalogService.Tests\\ProductServiceDataDrivenTests.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "16fbf4e52fd37ec8454266e8938d0db4",
+    "semantic_hash": "16fbf4e52fd37ec8454266e8938d0db4"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Tests\\CatalogService.Tests\\ProductServiceIntegrationTests.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "4933509bd5783a9e0105ab1226d949bd",
+    "semantic_hash": "4933509bd5783a9e0105ab1226d949bd"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Tests\\CatalogService.Tests\\ProductServiceTests.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "ade99f42d1d2f3b45989fac82ac16845",
+    "semantic_hash": "ade99f42d1d2f3b45989fac82ac16845"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\Tests\\CatalogService.Tests\\UnitTest1.cs": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "c644a10e57cfd67025337e26456d3e1f",
+    "semantic_hash": "c644a10e57cfd67025337e26456d3e1f"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\appsettings.Development.json": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "9401e0b4cd886a9f54f8866cb2397007",
+    "semantic_hash": "9401e0b4cd886a9f54f8866cb2397007"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\appsettings.json": {
+    "mtime": 1781604249.2737927,
+    "ast_hash": "f7e65dde4e5533740a0d57ac9355c0e8",
+    "semantic_hash": "f7e65dde4e5533740a0d57ac9355c0e8"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Clients\\CatalogClient.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "711c28ad872612eb6fa9688ca3581fef",
+    "semantic_hash": "711c28ad872612eb6fa9688ca3581fef"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Clients\\ICatalogClient.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "83d1b8c46b7f77b470d86bc56804a822",
+    "semantic_hash": "83d1b8c46b7f77b470d86bc56804a822"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Controllers\\OrdersController.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "fd4252cdc8ed809de3f00ce3047bf533",
+    "semantic_hash": "fd4252cdc8ed809de3f00ce3047bf533"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Data\\IOrderStore.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "e1e6b3c947b96d38db78258bf82af8c9",
+    "semantic_hash": "e1e6b3c947b96d38db78258bf82af8c9"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Data\\OrderEntities.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "5c4f353b533439f942e9979106e7484c",
+    "semantic_hash": "5c4f353b533439f942e9979106e7484c"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Data\\OrdersDbContext.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "97cb8b9da5272cc14f70ae46eb159321",
+    "semantic_hash": "97cb8b9da5272cc14f70ae46eb159321"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Data\\SqliteOrderStore.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "26853e11af0eaaec731f781858a919f5",
+    "semantic_hash": "26853e11af0eaaec731f781858a919f5"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\OrdersService.csproj": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "51f467ad3d159f6fbc74ebc2eb48ef90",
+    "semantic_hash": "51f467ad3d159f6fbc74ebc2eb48ef90"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Program.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "1222d0598de21873ecbf8d8717f596de",
+    "semantic_hash": "1222d0598de21873ecbf8d8717f596de"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Properties\\launchSettings.json": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "912703cc28958cfbbfae994cbc59269d",
+    "semantic_hash": "912703cc28958cfbbfae994cbc59269d"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Services\\IOrderService.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "f67d6fa3e71c92d4f405d688935b1016",
+    "semantic_hash": "f67d6fa3e71c92d4f405d688935b1016"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\Services\\OrderService.cs": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "82e37a805f1517210cf3fcee79c3e625",
+    "semantic_hash": "82e37a805f1517210cf3fcee79c3e625"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\appsettings.Development.json": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "b071daf939d00258efd33b78e1394093",
+    "semantic_hash": "b071daf939d00258efd33b78e1394093"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\appsettings.json": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "a3bec137c8d84a09d8693396e4b6557a",
+    "semantic_hash": "a3bec137c8d84a09d8693396e4b6557a"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\dotnet\\ApiRoutes.cs": {
+    "mtime": 1781604248.4299486,
+    "ast_hash": "45e4ddb2a46aa0609ecdaab45ef95734",
+    "semantic_hash": "45e4ddb2a46aa0609ecdaab45ef95734"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\dotnet\\CreateOrderRequest.cs": {
+    "mtime": 1781604248.4299486,
+    "ast_hash": "33577359c5a7a26c8f579962b1d9b3a0",
+    "semantic_hash": "33577359c5a7a26c8f579962b1d9b3a0"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\dotnet\\Money.cs": {
+    "mtime": 1781604248.4299486,
+    "ast_hash": "d0f3da52246f67e9f79c36a319235316",
+    "semantic_hash": "d0f3da52246f67e9f79c36a319235316"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\dotnet\\OrderDto.cs": {
+    "mtime": 1781604248.4299486,
+    "ast_hash": "e0ecf0cbefacaeb3578b98b283a2b798",
+    "semantic_hash": "e0ecf0cbefacaeb3578b98b283a2b798"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\dotnet\\OrderLine.cs": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "584873e5342f3fe6a6725eff64061696",
+    "semantic_hash": "584873e5342f3fe6a6725eff64061696"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\dotnet\\ProductDto.cs": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "2cae8dde1c155ceed56ce7f82c433a56",
+    "semantic_hash": "2cae8dde1c155ceed56ce7f82c433a56"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\dotnet\\ShopFlow.Contracts.csproj": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "61288d4a518343c4ff91c9720f1ffe96",
+    "semantic_hash": "61288d4a518343c4ff91c9720f1ffe96"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\typescript\\package.json": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "a020540f681b8d3f2ceec51f19124859",
+    "semantic_hash": "a020540f681b8d3f2ceec51f19124859"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\typescript\\src\\index.ts": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "440d29f2d75c418c545dedab5a7ebf6a",
+    "semantic_hash": "440d29f2d75c418c545dedab5a7ebf6a"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\typescript\\src\\money.ts": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "4ee01fdaf41ea83ec871d04e325c0e8e",
+    "semantic_hash": "4ee01fdaf41ea83ec871d04e325c0e8e"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\typescript\\src\\order.ts": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "90b45d9b723b4a0a79eb022de3d2a92b",
+    "semantic_hash": "90b45d9b723b4a0a79eb022de3d2a92b"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\typescript\\src\\product.ts": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "7d4220ec6bf83ca96e615bebc3c531a6",
+    "semantic_hash": "7d4220ec6bf83ca96e615bebc3c531a6"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\typescript\\src\\routes.ts": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "2e69cdafeb8748262a1d539b87f79d48",
+    "semantic_hash": "2e69cdafeb8748262a1d539b87f79d48"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\typescript\\tsconfig.json": {
+    "mtime": 1781604248.4455972,
+    "ast_hash": "02fb73f6fee0f8a48bd438b125c42709",
+    "semantic_hash": "02fb73f6fee0f8a48bd438b125c42709"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\package.json": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "5b3aaf8f2a5d0602d9be6b0f78856742",
+    "semantic_hash": "5b3aaf8f2a5d0602d9be6b0f78856742"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\src\\App.tsx": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "72de28bf5d4d4545f74d144efe4f8b1e",
+    "semantic_hash": "72de28bf5d4d4545f74d144efe4f8b1e"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\src\\api\\client.ts": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "c64e44cf9d0404f67abfdd3afdde51c9",
+    "semantic_hash": "c64e44cf9d0404f67abfdd3afdde51c9"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\src\\components\\CreateOrder.tsx": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "af542e20eb264552f04666b491302252",
+    "semantic_hash": "af542e20eb264552f04666b491302252"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\src\\components\\OrderList.tsx": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "626b47c2b3b310519bd670bafcabdd66",
+    "semantic_hash": "626b47c2b3b310519bd670bafcabdd66"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\src\\components\\ProductList.tsx": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "9908dda5909c3da78b677ccec79a959e",
+    "semantic_hash": "9908dda5909c3da78b677ccec79a959e"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\src\\main.tsx": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "02d222dfaa67973279f8c0bf966e269a",
+    "semantic_hash": "02d222dfaa67973279f8c0bf966e269a"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\src\\vite-env.d.ts": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "c042e4fdf88c5bcf35481e6b6b0b9ab6",
+    "semantic_hash": "c042e4fdf88c5bcf35481e6b6b0b9ab6"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\tsconfig.json": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "041052383141f4bcfb19b2e670db1756",
+    "semantic_hash": "041052383141f4bcfb19b2e670db1756"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\tsconfig.node.json": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "0f4c8881a4e0ea5250be99571880a5ba",
+    "semantic_hash": "0f4c8881a4e0ea5250be99571880a5ba"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\vite.config.ts": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "4c2beb6a2ca21b127b34c82d2c58223e",
+    "semantic_hash": "4c2beb6a2ca21b127b34c82d2c58223e"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\adlc-demo-knowledge-repo\\README.md": {
+    "mtime": 1781604231.1601443,
+    "ast_hash": "4d0bac8c89319bb054e40bc28806f5d7",
+    "semantic_hash": "4d0bac8c89319bb054e40bc28806f5d7"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\api-gateway\\README.md": {
+    "mtime": 1781604250.8361175,
+    "ast_hash": "179be40502cba89480bef5e024dbf7b7",
+    "semantic_hash": "179be40502cba89480bef5e024dbf7b7"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\catalog-service\\README.md": {
+    "mtime": 1781604249.2577772,
+    "ast_hash": "5a541e140f4391bfabc40a1a9b63dd11",
+    "semantic_hash": "5a541e140f4391bfabc40a1a9b63dd11"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\orders-service\\README.md": {
+    "mtime": 1781604250.054679,
+    "ast_hash": "4f180b21aef898859276f0f4ac6f7229",
+    "semantic_hash": "4f180b21aef898859276f0f4ac6f7229"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\shared-contracts\\README.md": {
+    "mtime": 1781604248.4299486,
+    "ast_hash": "d3094d97e6f2659e957ffac9d6aaf625",
+    "semantic_hash": "d3094d97e6f2659e957ffac9d6aaf625"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\README.md": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "88ad1f627b267ef9d7af55a3836e02e1",
+    "semantic_hash": "88ad1f627b267ef9d7af55a3836e02e1"
+  },
+  "C:\\Users\\PavanSudabattula\\Documents\\pavan-adlc-demo-work\\web-frontend\\index.html": {
+    "mtime": 1781604251.601735,
+    "ast_hash": "944ae562c7044de5ee2ee84d991329aa",
+    "semantic_hash": "944ae562c7044de5ee2ee84d991329aa"
+  }
+}
