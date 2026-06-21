@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="woH64bnanJKZ4A9Z2CVY">
+    <mxGraphModel dx="1406" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=22;fontStyle=1;" value="Graphify Knowledge Graph Architecture (Azure DevOps Enterprise)" vertex="1">
+          <mxGeometry height="40" width="900" x="440" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-2" parent="1" style="swimlane;rounded=1;whiteSpace=wrap;html=1;horizontal=1;startSize=30;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;" value="Azure DevOps Repositories (Per Repo)" vertex="1">
+          <mxGeometry height="560" width="560" x="440" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-3" parent="JL6gcFyFAOZPnAu9fnF8-2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" value="Repo: bff-orders&#xa;includes .graphifyignore&#xa;push/PR merge -&gt; graphify update" vertex="1">
+          <mxGeometry height="100" width="240" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-4" parent="JL6gcFyFAOZPnAu9fnF8-2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" value="Repo: svc-pricing&#xa;weekly graphify extract --force" vertex="1">
+          <mxGeometry height="90" width="240" x="30" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-5" parent="JL6gcFyFAOZPnAu9fnF8-2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" value="Repo: svc-inventory&#xa;same indexing pattern" vertex="1">
+          <mxGeometry height="90" width="240" x="30" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-6" parent="JL6gcFyFAOZPnAu9fnF8-2" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" value="Per-repo CI pipeline&#xa;incremental + weekly full rebuild&#xa;outputs: graph.json + manifest.json + openapi.json" vertex="1">
+          <mxGeometry height="170" width="230" x="300" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" value="Graph Artifact Store (Blob)&#xa;graphs/&lt;repo&gt;/graph.json&#xa;graphs/&lt;repo&gt;/manifest.json&#xa;graphs/&lt;repo&gt;/openapi.json" vertex="1">
+          <mxGeometry height="160" width="300" x="1060" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" value="Super-graph pipeline (central)&#xa;1) pull repo artifacts&#xa;2) graphify global add / merge&#xa;3) run crossrepo_linker.py&#xa;4) publish super-graph.json" vertex="1">
+          <mxGeometry height="220" width="340" x="1420" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" value="service-registry.yaml&#xa;BFFs, services, routes, OpenAPI locations" vertex="1">
+          <mxGeometry height="90" width="340" x="1420" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" value="super-graph.json&#xa;includes cross-repo CALLS_API edges&#xa;confidence tags: EXTRACTED/INFERRED/AMBIGUOUS" vertex="1">
+          <mxGeometry height="140" width="300" x="1820" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="Graphify MCP Server (HTTP)&#xa;python -m graphify.serve super-graph.json&#xa;api-key auth, stateless" vertex="1">
+          <mxGeometry height="130" width="300" x="1820" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" value="AI Copilot Harness Backend&#xa;Planner + code-retrieval agents&#xa;Impact analysis for solution targeting" vertex="1">
+          <mxGeometry height="120" width="300" x="1820" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;" value="Security + Residency&#xa;Self-hosted agents, private network, Key Vault secrets, in-tenant Azure OpenAI for docs" vertex="1">
+          <mxGeometry height="120" width="300" x="1060" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-14" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-3" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-6" value="push/PR + schedule">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-15" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-4" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-16" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-5" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-17" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-6" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-7" value="publish artifacts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-18" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-7" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-8" value="pull all graphs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-19" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-9" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-8" value="linking inputs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-20" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-8" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-10" value="publish">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-21" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-10" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-11" value="mount/load">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-22" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-12" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-11" value="tool.graphify.* queries">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-23" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-13" style="dashed=1;endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-2" value="governs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-24" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-13" style="dashed=1;endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-8" value="governs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JL6gcFyFAOZPnAu9fnF8-25" edge="1" parent="1" source="JL6gcFyFAOZPnAu9fnF8-13" style="dashed=1;endArrow=block;html=1;rounded=0;strokeColor=#666666;" target="JL6gcFyFAOZPnAu9fnF8-11" value="governs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
